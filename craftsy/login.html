@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="login">
+        <header>
+            <a href="home.html"><img src="img/logo.png" alt=""></a>
+            <nav>
+                <ul class="lista1">
+                    <li><a href="">smartphones</a></li>
+                    <li><a href="">tablets</a></li>
+                    <li><a href="">computadoras</a></li>
+                </ul>
+                <ul class="lista2">
+                    <li><a href="login.html">login</a></li>
+                    <li><a href="registro.html">registro</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1>bienvenido</h1>
+                
+                <form action="login.html" method="GET">
+            
+                    <p><label for="email">email</label></p>
+                    
+                    <p><input class="box" type="email" id="email" name="email" placeholder="Email"></p>
+                    
+                    <p><label for="password">contraseña</label></p>
+                    <p><input class="box" type="password" id="password" name="password" placeholder="Password"></p>
+                
+                
+                    <p id="check"><input class="check" type="checkbox" name="recordar">recordame</p>
+                
+                
+                    <p id="error">La combinación ingresada de email y contraseña no es válida</p>
+                
+                <button type="submit">ingresar</button>
+            </form>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

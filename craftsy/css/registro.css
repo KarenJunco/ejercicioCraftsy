@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.registro li{
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+}
+
+.registro a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+body{
+    background-image: url("../img/bg-2.png");
+}
+
+.registro{
+    width: 1140px;
+    margin-top: 100px;
+}
+
+.registro header{
+    background-color: orangered;
+    width: 1140px;
+    padding: 15px;
+    position: fixed;
+    top: 10px;
+    margin-bottom: 30px;
+    z-index: 1;
+    
+
+}
+
+.registro header img{
+    float: left;
+
+}
+
+.registro header ul.lista1{
+    float: left;
+    padding: 10px;
+}
+
+.registro header ul.lista2{
+    float: right;
+    padding: 10px;
+}
+
+.registro header li{
+    padding: 10px;
+}
+
+.registro main{
+    width: 350px;
+}
+
+.registro main section h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 3.5cm;
+    margin-bottom: 15px;
+}
+
+.registro main section p#titulo{
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.registro main section p.error{
+    color: red;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.registro main section input{
+    margin-right: 5px;
+    
+}
+
+.registro main section input.caja{
+    width: 100%;
+    height: 30px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.registro main section h2{
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.registro main section h2#sin-mayuscula{
+    text-transform: none;
+}
+
+.registro main section select{
+    width: 64%;
+    height: 26px;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 11px;
+}
+
+.registro main section p.gender{
+    display: inline;
+    font-size: 15px;
+    
+}
+
+
+.registro main section p.hobbie{
+    display: inline;
+    text-transform: capitalize;
+
+}
+.registro main section p.hobbie input.hobbie{
+    margin-right: 10px;
+}
+
+.registro main section p.condiciones{
+    margin-top: 20px;
+}
+
+.registro main button{
+    border-radius: 10px;
+    border: rgb(79, 140, 184);
+    color: white;
+    background-color: rgb(79, 140, 184);
+    width: 150px;
+    height: 35px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 30px;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
